@@ -1,4 +1,5 @@
 
+// Maximize the expression having 3 elements
 
 class Solution {
 
