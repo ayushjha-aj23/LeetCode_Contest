@@ -62,4 +62,14 @@ class Solution {
         result += ways; // digit itself contributes exactly 1 way (if not zero) so add 1 extra
         return result;
     }
+    // Summary - 
+    // Part 1 — Length < l
+    // Counts all 1-digit, 2-digit, …, (l−1)-digit zero-free numbers.
+    // Part 2 — Same length as n
+    // Digit-by-digit:
+    // count numbers smaller than n at each position
+    // ensure no zero digit occurs
+    // multiply by 9^(remaining positions)
+    // Part 3 — The number n itself
+    // Add 1 only if n has no zero, else add 0.
 }
